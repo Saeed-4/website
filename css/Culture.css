@@ -1,0 +1,179 @@
+.Exhibition-Inquiries{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    border: 1px solid #e6e3e3;
+}
+
+.Exhibition{
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+
+.Exhibition h2{
+    color: #000000;
+}
+
+.Exhibition p{
+    color: #858585;
+}
+
+.Hours{
+    width: 100%;
+    height: auto;
+    display: block;
+    line-height: 0px;
+    padding: 62px;
+}
+
+.Hours h1{
+    color: #000000;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.time i{
+    color: #000000;
+}
+
+.time p{
+    color: #F2B705;
+}
+
+.Hours button{
+    padding: 10px 20px;
+    color: #000000;
+    background-color: #F2B705;
+    border: 0px;
+    border-radius: 6px;
+    margin: 10px 0px;
+}
+
+.Orientalism{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-Orientalism{
+    width: 100%;
+    height: auto;
+}
+
+.img-Orientalism img{
+    width: 100%;
+    height: 320px;
+    border-radius: 30px;
+}
+
+.about-Orientalism{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.about-Orientalism h1{
+    color: #000000;
+    font-size: 23px;
+}
+
+.about-Orientalism span{
+    color: #858585;
+}
+
+.about-Orientalism p{
+    color: #000000;
+    line-height: 25px;
+}
+
+.img-blook-a{
+    width: 100%;
+    height: 199px;
+    background-image: url(../img/bbf86d46fcc80909b9ea58733f64e826049c7740.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 30px;
+}
+
+.img-blook-b{
+    width: 100%;
+    height: 199px;
+    background-image: url(../img/205a2968dada5cc22993b37013f7059e144ea830.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 30px;
+}
+
+.img-blook-c{
+    width: 100%;
+    height: 199px;
+    background-image: url(../img/d07263f093f5a7cf6b337f72364579e8716587ae.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 30px;
+}
+
+.img-blook-d{
+    width: 100%;
+    height: 199px;
+    background-image: url(../img/7019d576ce4533dc30742739290816f78bec9082.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 30px;
+}
+
+.img-blook-a button{
+    padding: 5px 20px;
+    font-size: 10px;
+    background-color: #F2B705;
+    color: white;
+    border-radius: 14px;
+    border: 0px solid black;
+    margin: 10px 0px 0px 23px;
+}
+
+.img-blook-b button{
+    padding: 5px 20px;
+    font-size: 10px;
+    background-color: #F2B705;
+    color: white;
+    border-radius: 14px;
+    border: 0px solid black;
+    margin: 10px 0px 0px 23px;
+}
+
+.img-blook-c button{
+    padding: 5px 20px;
+    font-size: 10px;
+    background-color: #F2B705;
+    color: white;
+    border-radius: 14px;
+    border: 0px solid black;
+    margin: 10px 0px 0px 23px;
+}
+
+.img-blook-d button{
+    padding: 5px 20px;
+    font-size: 10px;
+    background-color: #F2B705;
+    color: white;
+    border-radius: 14px;
+    border: 0px solid black;
+    margin: 10px 0px 0px 23px;
+}

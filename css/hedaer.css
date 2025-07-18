@@ -1,0 +1,145 @@
+.hamburger {
+  position: absolute;
+  top: 22px;
+  left:9px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+
+.nav-links {
+  display: none;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+  padding: 10px 0;
+}
+
+
+
+
+.nav-links.show {
+  display: flex;
+}
+
+.nav-links li {
+  text-align: center;
+  margin: 10px 0;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+}
+
+
+
+
+@media (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+ 
+
+  .nav-links {
+    display: flex !important;
+    position: static;
+    flex-direction: row;
+    justify-content: center;
+    background-color: transparent;
+  }
+
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  
+}
+
+@media (min-width: 768px) {
+  .main-menu ul {
+    display: flex;
+  }
+}
+
+@media (max-width: 576px) {
+    .main-menu {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .icon-phone, .social-media {
+        width: 50%;
+        justify-content: center;
+        padding: 5px 0;
+        margin-left: 0; 
+    }
+
+    .social-media ul {
+        gap: 15px;
+    }
+
+    .icon-phone i {
+        font-size: 16px;
+        white-space: nowrap;
+    }
+
+    .social-media {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .container{
+      margin: 0;
+    }
+
+    .img-header{
+      width: 100%;
+    }
+
+    .Ramadan{
+      padding: 0;
+    }
+
+    .text button{
+    padding: 10px 60px;
+    margin: 15px 0px;
+    background-color: #CFCFCF;
+    color: #000000;
+}
+.Blog{
+    width: 100%;
+    height: auto;
+    line-height: 30px;
+}
+.input {
+  width: 100%;
+  padding: 0px 0px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1366px){
+  .text button{
+    padding: 10px 80px;
+    margin: 15px 0px;
+    background-color: #CFCFCF;
+    color: #000000;
+}
+}

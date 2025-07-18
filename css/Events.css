@@ -1,0 +1,25 @@
+.text-B{
+    width: 100%;
+    height: auto;
+    line-height: 27px;
+    padding: 20px;
+}
+
+.text-B h1{
+    color: #000000;
+    font-size: 16px;
+}
+
+.text-B b{
+     color: #7C7C7CC2;
+     font-size: 14px;
+}
+
+.text-B button{
+    padding: 10px 93px;
+    margin: 15px 0px;
+    background-color: #CFCFCF;
+    color: #000000;
+    border: 0px;
+    border-radius: 10px;
+}

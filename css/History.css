@@ -1,0 +1,59 @@
+.img-History{
+  width: 100%;
+  height: 327px;
+  background-image: url('../img/f4e1fab4ff79af7cf2c3f444f5a5c39e5b38762f.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.history{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.overlays-History{
+  width: 100%;
+  height: 327PX;
+  background: rgba(0, 0, 0, 0.7); 
+  display: flex;
+  align-items: center; 
+  justify-content: flex-start;
+}
+
+.si-col{
+    color: #000000;
+    font-size: 20px;
+}
+
+.book5 {
+    position: relative;
+    background-image: url('../img/4cc258b6a2580d4930d1332d005a8c193a5f4772.png'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    height: 424px;
+    width: 285.3846130371094PX;
+    overflow: hidden;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.book5 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+    border-radius: 15px;
+}
+
+.Our-Mission{
+  padding: 0px 50px 0px 50px;
+}

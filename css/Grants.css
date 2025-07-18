@@ -1,0 +1,218 @@
+.Grants{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.faq-item {
+  width: 100%;
+  max-width: 600px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 23px 20px;
+  margin: 11px auto;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+}
+
+.faq-question .arrow {
+  color: orange;
+  transition: transform 0.3s ease;
+}
+
+.faq-item.open .arrow {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  display: none;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.faq-item.open .faq-answer {
+  display: block;
+}
+
+.How-to-Apply{
+    width: 100%;
+    height: auto;
+    padding: 12px 0px 0px 40px;
+    border: 1px solid #F2B705;
+    border-radius: 17px;
+    margin-top: 11px;
+}
+
+.How-to-Apply h1{
+    color: #000000;
+}
+
+.How-to-Apply p{
+    color: #858585;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin: 30px auto;
+  overflow: hidden;
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.9) 40%, transparent),
+    url('../img/c3d872eb3fbb1be873e1aabf051a8fc9088b7b24.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+
+
+.slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  transition: opacity 0.5s ease;
+  padding: 30px;
+}
+
+.slide-content {
+  color: #fff;
+  max-width: 50%;
+}
+
+.slide-content h2 {
+  color: #ffc107;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.slide-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.slide-content button {
+  background-color: #ffc107;
+  border: none;
+  padding: 10px 38px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.slide-video {
+  width: 45%;
+  position: relative;
+}
+
+.video-overlay {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.video-overlay img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  background-color: rgb(255 251 251 / 50%); 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.play-button i{
+    color: white;
+}
+
+.custom-play-icon i {
+  color: white;
+  font-size: 20px;
+}
+
+.custom-play-icon:hover {
+  transform: scale(1.1);
+}
+
+
+.slider-nav {
+  position: absolute;
+  bottom: 15px;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.arrow {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.dots {
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #ffc107;
+}
+
+.Post-Gerantee{
+    width: 100%;
+    height: 845px;
+    padding: 12px 0px 0px 40px;
+    border: 1px solid #9a9a9a;
+    border-radius: 17px;
+    margin-top: 11px;
+}
+
+.paragraph{
+    width: 100%;
+    height: 679px;
+}
+.Post-Gerantee{
+    color: #000000;
+}
+
+.Post-Gerantee p{
+    color: #858585;
+}

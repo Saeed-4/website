@@ -1,0 +1,21 @@
+.about-Hisham{
+    width: 100%;
+    height: auto;
+}
+
+.about-Hisham h3{
+    color: #000000;
+    font-size: 22px;
+}
+
+.about-Hisham p{
+    color: #000000;
+    font-size: 22px;
+}
+
+.Hisham-button{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,69 @@
+.Developers{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Developer{
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    border: 1px solid #00000080;
+    border-radius: 10px;
+}
+
+.Developer p{
+    color: #858585;
+}
+
+.dev-col{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.dev-col h3{
+    margin: 0px 5px;
+    color: #000000;
+}
+
+.dev-col p{
+    margin: 0px 5px;
+}
+
+.red{
+    color: #FF0000;
+}
+
+.blow{
+    color:#49AAFF;;
+}
+
+.Internship{
+    width: 100%;
+    height: auto;
+    display: flex;
+    border: 1px solid #00000080;
+    border-radius: 10px;
+}
+
+.img-Internship{
+  width: 312px;
+  height: 227px;
+  overflow: hidden;
+}
+
+.img-Internship img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.about-Internship{
+    width: 100%;
+    padding: 46px;
+}

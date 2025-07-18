@@ -1,0 +1,159 @@
+.Contact-Us{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-Contact-Us{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.Contact{
+    width: 100%;
+    height: auto;
+    display: block;
+    line-height: 30px;
+}
+
+.contact{
+    width: 100%;
+    height: auto;
+}
+
+.contact i{
+    color: #F2B705;
+}
+
+.contact a{
+    color: #6D6D6D;
+}
+
+.input {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="tel"],
+select,
+textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.phone-wrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.phone-wrapper input {
+  flex: 1;
+}
+
+.send-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 66px;
+  border-radius: 6px;
+  font-weight: bold;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.note {
+  font-size: 16px;
+  color: #888;
+  margin: 0;
+}
+
+
+.number{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.phone{
+    width: 100%;
+}
+
+.busines{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Bloks{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 24px;
+}
+
+.Location{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.img-Location{
+    width: 50%;
+    height: auto;
+}
+
+.img-Location img{
+     width: 282px;
+    height: 197px;
+    border-radius: 10px;
+}
+
+.about-Location{
+    width: 100%;
+    height: auto;
+    margin-left: 37px;
+}
+
+.about-Location h3{
+    font-size: 20px;
+    color: #000000;
+}
+
+.about-Location p{
+    font-size: 18px;
+    color: #000000;
+}
+
+@media (max-width: 576px){
+  .Location{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+}
